@@ -13,6 +13,8 @@
 		7B41BC0526A9B02E00477D34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B41BC0326A9B02E00477D34 /* Main.storyboard */; };
 		7B41BC0726A9B03000477D34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B41BC0626A9B03000477D34 /* Assets.xcassets */; };
 		7B41BC0A26A9B03000477D34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B41BC0826A9B03000477D34 /* LaunchScreen.storyboard */; };
+		7B41BC1326A9BBAB00477D34 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B41BC1226A9BBAB00477D34 /* HomeViewController.swift */; };
+		7B41BC1A26A9C9EA00477D34 /* RocketSim Recording - iPhone 12 - 2021-07-23 00.34.32.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7B41BC1926A9C9EA00477D34 /* RocketSim Recording - iPhone 12 - 2021-07-23 00.34.32.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		7B41BC0626A9B03000477D34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B41BC0926A9B03000477D34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B41BC0B26A9B03000477D34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B41BC1226A9BBAB00477D34 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7B41BC1926A9C9EA00477D34 /* RocketSim Recording - iPhone 12 - 2021-07-23 00.34.32.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "RocketSim Recording - iPhone 12 - 2021-07-23 00.34.32.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		7B41BBF126A9B02E00477D34 = {
 			isa = PBXGroup;
 			children = (
+				7B41BC1926A9C9EA00477D34 /* RocketSim Recording - iPhone 12 - 2021-07-23 00.34.32.gif */,
 				7B41BBFC26A9B02E00477D34 /* Launch Screen Animation */,
 				7B41BBFB26A9B02E00477D34 /* Products */,
 			);
@@ -59,6 +64,7 @@
 				7B41BBFD26A9B02E00477D34 /* AppDelegate.swift */,
 				7B41BBFF26A9B02E00477D34 /* SceneDelegate.swift */,
 				7B41BC0126A9B02E00477D34 /* ViewController.swift */,
+				7B41BC1226A9BBAB00477D34 /* HomeViewController.swift */,
 				7B41BC0326A9B02E00477D34 /* Main.storyboard */,
 				7B41BC0626A9B03000477D34 /* Assets.xcassets */,
 				7B41BC0826A9B03000477D34 /* LaunchScreen.storyboard */,
@@ -126,6 +132,7 @@
 			files = (
 				7B41BC0A26A9B03000477D34 /* LaunchScreen.storyboard in Resources */,
 				7B41BC0726A9B03000477D34 /* Assets.xcassets in Resources */,
+				7B41BC1A26A9C9EA00477D34 /* RocketSim Recording - iPhone 12 - 2021-07-23 00.34.32.gif in Resources */,
 				7B41BC0526A9B02E00477D34 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 				7B41BC0226A9B02E00477D34 /* ViewController.swift in Sources */,
 				7B41BBFE26A9B02E00477D34 /* AppDelegate.swift in Sources */,
 				7B41BC0026A9B02E00477D34 /* SceneDelegate.swift in Sources */,
+				7B41BC1326A9BBAB00477D34 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
