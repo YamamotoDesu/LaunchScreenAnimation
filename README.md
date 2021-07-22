@@ -27,6 +27,7 @@ private let imageView: UIImageView = {
         super.viewWillLayoutSubviews()
         imageView.center = view.center
         
+        // アニメーションが開始するまでの秒数
         DispatchQueue.main.asyncAfter(deadline: .now()+0.5) {
             self.animate()
         }
@@ -34,6 +35,7 @@ private let imageView: UIImageView = {
     
     //画像サイズ変更
     private func animate() {
+    　　 // アニメーションの秒数
         UIView.animate(withDuration: 1) {
             let size = self.view.frame.size.width * 3
             let diffX = size - self.view.frame.size.width
