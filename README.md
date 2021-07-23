@@ -1,5 +1,5 @@
 # LaunchScreenAnimation-Swift
-Launch Screen Animation in App (Swift 5) 
+Launch Screen Animation in App (Swift 5)  
 https://www.youtube.com/watch?v=kbGsI5O9rWY&t=605s
 
 ## Requirement
@@ -37,6 +37,7 @@ private let imageView: UIImageView = {
     private func animate() {
     　　 // アニメーションの秒数
         UIView.animate(withDuration: 1) {
+            //画像サイズ設定
             let size = self.view.frame.size.width * 3
             let diffX = size - self.view.frame.size.width
             let diffY = self.view.frame.size.height - size
